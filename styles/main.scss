@@ -1,4 +1,6 @@
 
+@import 'media-q';
+
 body{
 	margin: 0 1em;
 }
@@ -43,20 +45,14 @@ nav{
 }
 
 
-.SimplePrice{
+.QuoteHeader{
 	margin: 0 auto 3em auto;
-
-	background-image: url(https://raw.githubusercontent.com/jhartley1412/Day04-ResponsiveSite/e3566b6785e7e5f459f0d538cceaca9b4702c119/images/slack-imgs.com.jpeg);
-	background-position: left top;
-	background-size: 1635px;
-	background-repeat: no-repeat;
+	background-color: #3B4C80;
 
 	h2{
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
+		font-family: 'Michroma', sans-serif;
 		color: white;
 		text-align: center;
-		text-shadow: 0.2em 0.2em 0.5em black;
 	}
 }
 

@@ -1,3 +1,123 @@
+@media (min-width: 0px) {
+  .QuoteHeader {
+    padding: 6em; }
+    .QuoteHeader h2 {
+      font-size: 20px; }
+
+  .plans {
+    width: 100%; }
+    .plans .plan-header {
+      padding: 2em 0; }
+    .plans .plan-types {
+      width: 100%;
+      margin-bottom: 3em; }
+
+  .info-block {
+    padding: 2em;
+    box-sizing: border-box;
+    margin: 1em auto; } }
+@media (min-width: 480px) {
+  .SimplePrice {
+    padding: 5em; }
+    .SimplePrice h2 {
+      font-size: 40px; }
+
+  .plans {
+    width: 100%; }
+    .plans .plan-types {
+      width: 100%;
+      margin-bottom: 3em; } }
+@media (min-width: 768px) {
+  .SimplePrice {
+    padding: 8em; }
+    .SimplePrice h2 {
+      font-size: 55px; }
+
+  .plans {
+    width: 90%;
+    max-width: 60em;
+    margin: 0 auto; }
+    .plans .plan-header {
+      padding: 2em 0; }
+    .plans .plan-types {
+      width: 30%;
+      max-width: 18em; }
+
+  .personal-plan {
+    float: left; }
+
+  .small-bus-plan {
+    margin-left: 5%;
+    float: left; }
+    .small-bus-plan h1 {
+      font-size: 15px;
+      padding-top: 1.2em; }
+
+  .enterprise-plan {
+    float: right; }
+
+  .personal-plan h1, .enterprise-plan h1 {
+    font-size: 16px;
+    padding-top: 1em; }
+
+  h2 {
+    font-size: 80px; }
+
+  h3 {
+    font-size: 19px; }
+
+  .more-info {
+    width: 90%;
+    max-width: 60em;
+    margin: 0 auto; }
+
+  .info-block {
+    width: 45%;
+    padding: 1em 0;
+    float: left; }
+    .info-block:nth-child(even) {
+      float: right; }
+
+  footer {
+    clear: both; } }
+@media (min-width: 1340px) {
+  .plans {
+    width: 60em;
+    margin: 0 auto; }
+    .plans .plan-types {
+      width: 18em; }
+
+  .personal-plan {
+    float: left; }
+
+  .small-bus-plan {
+    margin-left: 5%; }
+    .small-bus-plan h1 {
+      font-size: 15px;
+      padding-top: 1.2em; }
+
+  .enterprise-plan {
+    float: right; }
+
+  .personal-plan, .enterprise-plan {
+    margin: 0 auto; }
+    .personal-plan h1, .enterprise-plan h1 {
+      font-size: 16px;
+      padding-top: 1em; }
+
+  .more-info {
+    width: 60em;
+    margin: 0 auto; }
+
+  .info-block {
+    width: 45%;
+    padding: 1em 0 0 0;
+    float: left; }
+    .info-block:nth-child(even) {
+      float: right; }
+
+  footer {
+    clear: both; } }
 body {
   margin: 0 1em; }
 
@@ -28,18 +148,13 @@ nav {
   float: right;
   padding: 0.6em 1em 0 0.5em; }
 
-.SimplePrice {
+.QuoteHeader {
   margin: 0 auto 3em auto;
-  background-image: url(https://raw.githubusercontent.com/jhartley1412/Day04-ResponsiveSite/e3566b6785e7e5f459f0d538cceaca9b4702c119/images/slack-imgs.com.jpeg);
-  background-position: left top;
-  background-size: 1635px;
-  background-repeat: no-repeat; }
-  .SimplePrice h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
+  background-color: #3B4C80; }
+  .QuoteHeader h2 {
+    font-family: 'Michroma', sans-serif;
     color: white;
-    text-align: center;
-    text-shadow: 0.2em 0.2em 0.5em black; }
+    text-align: center; }
 
 .plan-types {
   width: 100%;
