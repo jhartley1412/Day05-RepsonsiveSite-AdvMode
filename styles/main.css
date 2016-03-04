@@ -2,7 +2,15 @@
   .QuoteHeader {
     padding: 6em; }
     .QuoteHeader h2 {
-      font-size: 20px; } }
+      font-size: 20px; }
+
+  .questions {
+    border-bottom: 1px solid #DDDDDD; }
+
+  .info-block {
+    padding: 2em;
+    box-sizing: border-box;
+    margin: 0 auto; } }
 @media (min-width: 768px) {
   .QuoteHeader {
     padding: 8em; }
