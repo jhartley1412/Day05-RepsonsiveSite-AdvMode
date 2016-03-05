@@ -14,6 +14,9 @@
 	}
 
 	.questions{
+		width: 95%;
+		margin: 0 auto;
+		padding: 3em 0 8em 0;
 		border-bottom: 1px solid #DDDDDD;
 	}
 
@@ -56,19 +59,24 @@
 
 	}
 	
+	.container{
+		margin: 0 auto;
+		max-width: 900px;
+		background-color: green;
+	}
+
 	.questions{
-		width: 37%;
+		width: 40%;
 		float: left;
-		padding: 0 2.5%;
-		margin-left: 3%;
+		padding-left: 3%;
 
 		border-bottom: none;
 	}
 
 	.more-info{
-		width: 40%;
-		float: right;
-		padding: 1em 2.5% 0 2.5%;
+		width: 50%;
+		float: left;
+		margin-left: 5%;
 		margin-top: 0;
 	}
 
