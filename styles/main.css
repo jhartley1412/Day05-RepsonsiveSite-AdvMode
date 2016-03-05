@@ -54,7 +54,7 @@ header {
   header a {
     color: #777777;
     text-decoration: none; }
-  header a.Price-button {
+  header a.Contract-button {
     color: #64bbf6; }
   header a:hover {
     color: #94D0F9; }
@@ -93,8 +93,19 @@ nav {
   width: 20em; }
 
 .large {
-  width: 20em;
-  height: 10em; }
+  width: 320px;
+  max-width: 330px;
+  height: 100px;
+  max-height: 250px;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid #E7E7E7;
+  font-size: 16px;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  overflow: auto;
+  padding: 2px;
+  resize: both; }
 
 h1 {
   font-family: 'Michroma', sans-serif;
